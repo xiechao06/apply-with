@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rollup -c",
-    "test": "standard && tape -r @babel/register test.js | tap-spec",
+    "test": "standard *.js && tape -r @babel/register test.js | tap-spec",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
