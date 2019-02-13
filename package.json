@@ -1,0 +1,19 @@
+{
+  "name": "apply-with",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:xiechao06/apply-with.git",
+  "author": "xiechao06 <xiechao06@gmail.com>",
+  "license": "MIT",
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  },
+  "scripts": {
+    "test": "tape -r @babel/register test.js | tap-spec"
+  },
+  "devDependencies": {
+  }
+}
