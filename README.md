@@ -26,7 +26,7 @@ So, I borrow the idea
 ## Installation
 
 ```bash
-$ npm i oapply
+$ npm i apply-with
 ```
 
 ## Usage
@@ -50,6 +50,21 @@ applyWith(
   it => { it.a += 2 }
 ).then(it => console.log(it.a)) // output 4
 ```
+
+## API
+
+### applyWith(sth, ...funcs)
+
+#### parameters
+
+* sth - start point, if it is a promise, get the resolved value as the start point
+* funcs - a series of (asynchronous) functions which accept start point as the parameter. Note! these functions' return values are irrelevant
+
+#### returns
+
+a promise resolved to the start point applied with given functions
+
+
 
 
 ## Development
