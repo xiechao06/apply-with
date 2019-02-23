@@ -3,7 +3,7 @@ apply a (asynchronous) function to an object and return this object, similar to 
 
 ## Motivation
 
-I tired of writing the following code:
+I'm tired of writing the following codes:
 
 ```javascript
 let person = {}
@@ -21,7 +21,7 @@ return Person().apply {
 }
 ```
 
-So, I borrow the idea
+So, I borrow the idea.
 
 ## Installation
 
@@ -38,7 +38,7 @@ import applyWith from 'apply-with'
 
 ### commonjs way
 ```javascript
-const applyWith = require('applyWith')
+const applyWith = require('apply-with')
 ```
 
 ## Example
