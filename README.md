@@ -1,4 +1,7 @@
 # apply-with
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/xiechao06/apply-with.svg)](https://greenkeeper.io/)
+
 apply a (asynchronous) function to an object and return this object, similar to kotlin's apply
 
 ## Motivation
